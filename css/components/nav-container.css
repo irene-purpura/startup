@@ -3,8 +3,8 @@
   top: 0;
   width: 100%;
   padding: 0px 0;
-  background: rgba(0,0,0,0.4);  /* nero con 60% trasparenza */
-  backdrop-filter: blur(50px);   /* effetto vetro */
+  background: rgba(0,0,0,0.4); 
+  backdrop-filter: blur(50px);  
   z-index: 1000;
 }
 
@@ -29,6 +29,7 @@
 }
 
 .nav-logo {
-  color: #f4c542; /* un bel giallo */
+  color: #f4c542; 
   font-weight: bold;
 }
+
