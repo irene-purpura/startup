@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Shelf Guide</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="nav-logo">Shelf Guide</a>
+        <ul class="nav-links">
+          <li><a href="who.html">Who we are</a></li>
+          <li><a href="mission.html">Our mission</a></li>
+          <li><a href="business.html">Smart Guide for Businesses</a></li>
+          <li><a href="shoppers.html">Smart Guide for Shoppers</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div class="banner">
+      <h1> Shelf Guide </h1>
+      <h2> Shop Smart. Save Time. Never Forget. </h2>
+      <a href="#cta" class="btn-blue"> Start now</a>
+    </div>
+
+    <div class="section intro">
+      <div class="container">
+          <h1> Find Your Groceries in 5 Minutes, Not 5 Aisles.</h1>
+          <h3>Stop wandering. Start navigating. The AI-powered shopping guide that gets you in and out fast.</h3>
+      </div>
+    </div>
+
+     <div class="section problem">
+      <div class="container problem-content">
+        <div class="problem-image">
+          <img src="images/persona.png" alt="Illustrazione del problema" class="img-fluid">
+        </div>
+        <div class="problem-text">
+        <h1>The problem</h1>
+        <p>
+          Every day, millions of people waste time wandering through supermarkets trying to find products.
+          Aisles change, products get moved, and even the simplest shopping trip becomes slow and stressful.
+          What should take 10 minutes often becomes a 45-minute search.
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section solution">
+      <div class="container">
+        <h1>Our solution</h1>
+        <p>
+          Shelf Guide turns grocery shopping into a simple, fast, and guided experience.
+          Users upload their shopping list—typed, spoken, or photographed—and if the store is registered in our system,
+          our AI instantly reorganizes the list based on the real layout of that supermarket.
+          The result? A fully optimized route that helps you find everything in minutes.
+        </p>
+      </div>
+    </div>
+
+     <div class="section how-it-works">
+  <div class="container how-it-works-container">
+
+    <div class="how-text">
+      <h1>How it works</h1>
+      <div class="steps">
+        <div class="step">
+          <h3>1. Create your list</h3>
+          <p>Upload your list in text, voice, or photo format.</p>
+        </div>
+        <div class="step">
+          <h3>2. Store data integrated</h3>
+          <p>The store provides its layout and shelf structure when joining the platform.</p>
+        </div>
+        <div class="step">
+          <h3>3. Get your optimized route</h3>
+          <p>The AI arranges your list in the perfect walking order and guides you step-by-step.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="how-image">
+      <img src="images/mappa.png" alt="Shelf Guide demo">
+    </div>
+
+  </div>
+</div>
+
+    <div class="section for-business">
+      <div class="container">
+        <h1>For Businesses</h1>
+        <p>
+          Stores that join Shelf Guide become visible to thousands of shoppers looking for fast, optimized routes.
+          By sharing their store layout, they enable a smoother shopping experience,
+          attract more customers, reduce in-store search time, and bring innovation to their supermarket.
+        </p>
+        <a href="business.html" class="btn-blue">Learn more</a>
+      </div>
+    </div>
+
+
+    <div class="cards">
+      <div class="card">
+        <h3> Say Goodbye to Aisle Anxiety. </h3>
+        <p>
+          Grocery shopping is chaos. <br> You zigzag across the store, forget essential items, and waste precious time searching for that one spice. <br> We built ShelfGuide to bring the efficiency of digital navigation to the physical world of retail.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3> Your List. Optimized. </h3>
+        <p>  Simply upload your shopping list (via text, voice, or photo) and our Route AI instantly rearranges it based on the exact layout of your specific store. <br>Get a turn-by-turn route that minimizes walking and maximizes efficiency.
+        </p>
+      </div>
+     </div>
+
+     <div class="cards-app">
+      <div class="card card-app">
+         <img src="images/logo.png" alt="logo">
+
+        <h3>Get our app!</h3>
+
+         <a class="btn-blue disabled">Download Shelf Guide</a>
+
+         <p class="subtext">Available from January 2026</p>
+      </div>
+     </div>
+
+    <div class="section final">
+      <section id="cta">
+        <h2>Ready to shop smarter?</h2>
+        <p>Click to sumbit and fill our form.</p>
+        <a href="#" id="open-typeform" class="btn-blue">Submit</a>
+      </section>
+    </div>
+
+    <div class="footer">
+      <p>© 2025 Shelf Guide — Designed by Irene Purpura</p>
+    </div>
+
+    <script src="https://embed.typeform.com/embed.js"></script>
+
+    <script>
+    const button = document.getElementById('open-typeform');
+
+    button.addEventListener('click', function(event) {
+      event.preventDefault();
+
+      window.typeformEmbed.makePopup(
+        "https://form.typeform.com/to/MZSdhwp7",
+        {
+          mode: "popup",
+          autoClose: 3,
+          hideHeaders: true,
+          hideFooters: true
+         }
+        ).open();
+       });
+      </script>
+
+  </body>
+
+</html>

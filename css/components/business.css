@@ -1,0 +1,84 @@
+.section {
+  padding: 60px 0;
+}
+
+.section .container {
+  width: 85%;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section:nth-child(even) {
+  background: #fdfae4;
+}
+
+.section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.section p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+
+.pillars .pillar-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.pillar-box {
+  background: #FFF9DD;
+  width: 260px;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease-out;
+}
+
+.pillar-box:hover {
+  transform: translateY(-5px);
+}
+
+.pillar-box h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.pillar-box p {
+  font-size: 16px;
+  color: #444;
+}
+
+.btn-blue {
+  padding: 12px 24px;
+  background-color: #f4d03f;
+  color: #222;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.2s ease-in-out;
+}
+
+.btn-blue:hover {
+  background-color: #e1be36;
+}
+
+
+@media (max-width: 768px) {
+  .hero-business img {
+    max-height: 180px;
+  }
+
+  .pillar-box {
+    width: 90%;
+  }
+}
