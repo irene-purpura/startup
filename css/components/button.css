@@ -7,6 +7,11 @@
   font-weight: normal;
 }
 
+.section.for-business .container a.btn-blue {
+  margin-top: 20px; /* Sostituisci 20px con il valore desiderato per lo spazio */
+  display: inline-block; /* Rende l'elemento capace di accettare margini verticali */
+}
+
 .btn-blue.disabled {
   background-color: #dcdcdc;  
   color: black;                  
@@ -14,4 +19,5 @@
   pointer-events: none;        
   box-shadow: none;
 }
+
 
