@@ -120,6 +120,15 @@ a{
     margin: 0 auto;
 }
 
+.btn-blue{
+  background-color: #ffde59;
+  padding: 12px 18px;
+  border-radius: 4px;
+  color: black;
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+}
+
 @media (max-width: 768px) {
     .problem-content {
         flex-direction: column;
@@ -130,4 +139,7 @@ a{
         text-align: center;
        }
 }
+
+
+
 
