@@ -46,12 +46,13 @@
 
 .card-app {
   display: flex;
-  flex-direction: column;   /* elementi uno sotto l’altro */
-  align-items: center;      /* centrati */
+  flex-direction: column;   
+  align-items: center;      
   justify-content: center;
   gap: 15px;
   max-width: 400px;
   margin: 0 auto;
   background: #fdfae4;
 }
+
 
