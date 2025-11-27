@@ -5,12 +5,9 @@
   color: black;
   font-family: Roboto, sans-serif;
   font-weight: normal;
+  margin-top: 20px;
 }
 
-.section.for-business .container a.btn-blue {
-  margin-top: 20px; /* Sostituisci 20px con il valore desiderato per lo spazio */
-  display: inline-block; /* Rende l'elemento capace di accettare margini verticali */
-}
 
 .btn-blue.disabled {
   background-color: #dcdcdc;  
@@ -19,5 +16,6 @@
   pointer-events: none;        
   box-shadow: none;
 }
+
 
 
