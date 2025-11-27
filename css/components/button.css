@@ -8,9 +8,10 @@
 }
 
 .btn-blue.disabled {
-  background-color: #dcdcdc;   /* grigio chiaro */
-  color: black;                  /* testo grigio */
+  background-color: #dcdcdc;  
+  color: black;                  
   cursor: default;
-  pointer-events: none;         /* non cliccabile */
+  pointer-events: none;        
   box-shadow: none;
 }
+
