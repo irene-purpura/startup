@@ -127,7 +127,6 @@ a{
   color: black;
   font-family: Roboto, sans-serif;
   font-weight: normal;
-  margin-top: 20px;
 }
 
 @media (max-width: 768px) {
@@ -140,6 +139,7 @@ a{
         text-align: center;
        }
 }
+
 
 
 
